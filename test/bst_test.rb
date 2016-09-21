@@ -20,7 +20,6 @@ class BinarySearchTreeTest < Minitest::Test
   end
 
   def test_does_current_node_contain_a_score
-
     tree = BinarySearchTree.new
     tree.insert(61, "Bill & Ted's Excellent Adventure")
     tree.insert(16, "Johnny English")

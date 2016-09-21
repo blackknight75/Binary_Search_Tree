@@ -6,9 +6,7 @@ class BinarySearchTree
   def intitialize
     @head = nil
     @tree = nil
-
   end
-
 
   def insert(rating, title)
     # binding.pry
@@ -33,7 +31,6 @@ class BinarySearchTree
 
       elsif (current.rating > node.rating)
         # binding.pry
-        # # start at top
         current.left = node
         x = true
       elsif (current.rating < node.rating) && current.right != nil
